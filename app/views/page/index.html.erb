@@ -1,0 +1,38 @@
+<div class="logos">
+<h2> <strong>  STUZL </strong></h2>
+<h1>Get more from your trip abroad. <br/> Friendly community of international millennials.</h1>
+<h3>Sign up and we will let you know when we launch</h3>
+<h4><%= User.all.count + 133 %> students already registered.</h4>
+</div>
+
+
+<div class="form">
+  <% if @current_user == nil %>
+  <%= form_for(@user, :url => create_user_path)  do |f| %>
+
+
+          <%= f.text_field :name, placeholder: @name_placeholder, :class => 'text-field ' + @name_error_class  %> <br/>
+
+
+          <%= f.select(:country, @countries, {}, { :class => ' form-control text-field ' + @country_error_class }) %> <br/>
+
+
+          <%= f.text_field :email, placeholder: @email_placeholder, :class => 'text-field ' + @email_error_class%> <br/>
+
+<div class="submit">
+        <%= f.submit "SIGN IN =>>" , :class => "btn btn-lg btn-success button-form"  %>
+</div>
+  <% end %>
+      <% else %>
+
+  <h3>
+    Thanks for registration, your email - <u> <%= @current_user.email %> </u>
+  </h3>
+
+   <% end %>
+</div>
+<%= session[:user_email] %> <br/>
+<div class="footer">
+  <br/> <br/> <br/> <br/>
+  <h5>© 2015 STUZL.COM | All Rights Reserved. </h5>
+</div>

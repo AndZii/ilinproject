@@ -1,0 +1,122 @@
+/* line 7, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+html {
+  background: url(/fdon.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 16, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+body {
+  background: none;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+/* line 22, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+/* line 29, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+h2 {
+  font-size: 500%;
+  color: white;
+  font-family: 'PT sans';
+}
+
+/* line 36, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+  font-family: 'PT sans';
+}
+
+/* line 42, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+h3 {
+  font-size: 190%;
+}
+
+/* line 46, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+h4 {
+  font-size: 190%;
+}
+
+/* line 49, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+h5 {
+  color: black;
+}
+
+/* line 52, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+.logos {
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 58, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+.form {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 270px;
+  width: 400px;
+  background-color: rgba(234, 234, 234, 0.52);
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 20px;
+}
+
+/* line 72, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+.submit {
+  margin-left: auto;
+  margin-right: auto;
+  width: 390px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.58);
+  margin-bottom: 0;
+  padding-top: 12px;
+  padding-left: 40%;
+}
+
+/* line 83, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+.text-field {
+  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  font-size: 150%;
+  height: 35px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* line 96, /Users/andrey/Desktop/ror/stuzl/app/assets/stylesheets/page.scss */
+.button-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+
+.error {
+    border: 2px solid red;
+}

@@ -1,0 +1,100 @@
+// Place all the styles related to the Page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+html {
+
+  background: url(/fdon.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: none;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+h1,h2,h3,h4,h5 {
+
+  text-align: center;
+
+
+}
+
+h2 {
+  font-size: 500%;
+  color: white;
+  font-family: 'PT sans';
+
+}
+
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+  font-family: 'PT sans';
+}
+
+h3  {
+  font-size: 190%;
+}
+
+h4 {
+  font-size: 190%;
+}
+h5 {
+  color: black;
+}
+.logos {
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form {
+
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 270px;
+  width: 400px;
+  background-color: rgba(234, 234, 234, 0.52);
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 20px;
+
+}
+
+.submit {
+  margin-left: auto;
+  margin-right: auto;
+  width: 390px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.58);
+  margin-bottom: 0;
+  padding-top: 12px;
+  padding-left: 40%;
+}
+
+.text-field {
+  color: black;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  font-size: 150%;
+  height: 35px;
+  width: 300px;
+  border-radius: 10px;
+
+
+}
+.button-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

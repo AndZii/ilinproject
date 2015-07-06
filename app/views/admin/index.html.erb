@@ -1,0 +1,7 @@
+<%= link_to '<<= back', root_path %>
+<% number = 1 %>
+<% User.all.each do |user| %>
+
+<h4><%= number.to_s + " - " +  user.name + " - " + user.country + " - " + user.email  %></h4> <br/>
+  <% number = number + 1 %>
+<% end %>
