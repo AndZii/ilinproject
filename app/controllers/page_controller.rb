@@ -2,6 +2,8 @@ class PageController < ApplicationController
 
 
   def index
+    @name_placeholder = "  Name"
+    @email_placeholder = "  Email"
     @countries = all_countries
     @all_users = User.all
 

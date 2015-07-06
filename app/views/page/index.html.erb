@@ -11,13 +11,13 @@
   <%= form_for(@user, :url => create_user_path)  do |f| %>
 
 
-          <%= f.text_field :name, placeholder: @name_placeholder, :class => 'text-field ' + @name_error_class  %> <br/>
+          <%= f.text_field :name, placeholder: @name_placeholder, :class => 'form-control  text-field ' + @name_error_class  %> <br/>
 
 
           <%= f.select(:country, @countries, {}, { :class => ' form-control text-field ' + @country_error_class }) %> <br/>
 
 
-          <%= f.text_field :email, placeholder: @email_placeholder, :class => 'text-field ' + @email_error_class%> <br/>
+          <%= f.text_field :email, placeholder: @email_placeholder, :class => 'form-control  text-field ' + @email_error_class%> <br/>
 
 <div class="submit">
         <%= f.submit "SIGN IN =>>" , :class => "btn btn-lg btn-success button-form"  %>
